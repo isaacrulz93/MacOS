@@ -1,0 +1,23 @@
+맥북초기 설정
+
+Fish:
+Friendly
+Interactive
+Shell
+
+brew.sh 에서 homebrew 설치
+
+
+
+Fish 설치하기
+$ brew install fish
+$ fish_add_path /opt/homebrew/bin
+$ echo "/opt/homebrew/bin/fish" | sudo tee -a /etc/shells   #fish를 온전한 쉘로 인식할 수 있게 기존 쉘 경로로 복사해주는 과정?
+$ chsh -s /opt/homebrew/bin/fish  #fish를 기본 쉘로 변경
+
+iterm2 설치하기
+$ brew install --cask iterm2
+
+docker 설치
+
+---도커를 잘 이용해보자 ㅠ-
