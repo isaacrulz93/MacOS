@@ -18,6 +18,14 @@ $ omf install edan                                                              
 
 미니콘다 설치
 
+.config/fish.config.fish 에 
+
+if status is-login
+    cd /내가/이동하고/싶은/디렉토리
+end
+
+를 추가해주면 경로 변경을 할 수 잇다.
+
 RunCat - 귀여운 고양이가 뛰어다닌다
 
 Slack
