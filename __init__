@@ -1,6 +1,8 @@
 맥북초기 설정
 
-brew.sh 에서 homebrew 설치
+1. brew.sh 에서 homebrew 설치
+
+control + space 버튼 누르고, terminal 검색해서 실행
 
 iterm2 설치
 $ brew install --cask iterm2
